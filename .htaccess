@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^accueil$ index.php?controleur=principal&action=afficherAccueil
+RewriteRule ^inscription$ index.php?controleur=admin&action=AfficherInscription
+RewriteRule ^connexion$ index.php?controleur=admin&action=AfficherConnexion
+RewriteRule ^faq$ index.php?controleur=principal&action=afficherFAQ
+RewriteRule ^contact$ index.php?controleur=principal&action=afficherContact
+RewriteRule ^status-services$ index.php?controleur=principal&action=afficherStatutService
+RewriteRule ^politique-confidentialité$ index.php?controleur=principal&action=afficherPolitiqueConf
+RewriteRule ^mentions-legales$ index.php?controleur=principal&action=afficherMention
+RewriteRule ^a-propos$ index.php?controleur=principal&action=afficherPropos
+RewriteRule ^conditions$ index.php?controleur=principal&action=afficherCondition
